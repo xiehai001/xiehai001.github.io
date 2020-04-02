@@ -11,7 +11,7 @@
 
     <title>
         
-        花裤熊二的博客 |  Blog
+        Tags - 花裤熊二的博客 |  Blog
         
     </title>
 
@@ -57,13 +57,13 @@
     </div>
     <div class="contents" id="nav-content">
         <ul>
-            <li  class=active >
+            <li >
                 <a href="/">
                     <i class="iconfont icon-shouye1"></i>
                     <span>HOME</span>
                 </a>
             </li>
-            <li >
+            <li  class=active >
                 <a href="/tags">
                     <i class="iconfont icon-biaoqian1"></i>
                     <span>TAGS</span>
@@ -115,48 +115,36 @@
     
     <div class="index-middle">
         <!-- Main Content -->
-        
-<div class="post-preview-container" style="min-height: 720px">
+        <div id='tag_cloud' class="tags">
     
-    <div class="post-preview">
-        <div class="post-time">2020-04-03</div>
-        <div class="post-info">
-            <a href="/2020/04/03/git/">
-                <h3>
-                    git
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
+    <a href="#git" title="git" rel="1">git</a>
     
+</div>
+
+<!-- 标签列表 -->
+
+
+<div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="git">
+                    <span class="tag-text">git</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
     <div class="post-preview">
-        <div class="post-time">2020-04-02</div>
-        <div class="post-info">
-            <a href="/2020/04/02/git学习笔记/">
-                <h3>
-                    git学习笔记
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#git" title="git">git</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
+        <a href="/2020/04/02/git学习笔记/">
+            <h2 class="post-title">
+                git学习笔记
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
     </div>
     
 </div>
-<ul class="pager">
-    
-    
-</ul>
+
 
     </div>
 </div>
